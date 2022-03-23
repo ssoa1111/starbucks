@@ -44,9 +44,9 @@ og:url: 페이지 주소(URL)
 
 
 ## 트위터 카드(Twitter Cards)
-트위터 카드를 사용하면 풍부한 사진, 비디오 및 미디어 경험을 트윗에 첨부하여 
-웹 사이트로 트래픽을 유도할 수 있습니다. 콘텐츠에 대한 링크를 트윗하는 사용자는 
-팔로워에게 표시되는 트윗에 "카드"가 추가됩니다.
+트위터 카드를 사용하면 풍부한 사진, 비디오 및 미디어 경험을 트윗에 첨부하여    
+웹 사이트로 트래픽을 유도할 수 있습니다. 콘텐츠에 대한 링크를 트윗하는 사용자는    
+팔로워에게 표시되는 트윗에 "카드"가 추가됩니다.    
 [트위터 카드 속성 확인하기](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary)
 ```
 twitter:card: 카드 속성(summary값으로 설정해야 합니다.)
@@ -59,10 +59,10 @@ twitter:url: 페이지 주소(URL)
 
 
 ## Lodash
-array, collection, date 등 데이터의 필수적인 구조를 
-쉽게 다룰 수 있게끔 하는데에 사용됩니다.
-ㅡ.(변수)으로 작성되며 lodash wrapper로 변수를 감싸게 되면서 
-해당 변수에 대한 chaining을 시작합니다.
+array, collection, date 등 데이터의 필수적인 구조를    
+쉽게 다룰 수 있게끔 하는데에 사용됩니다.    
+ㅡ.(변수)으로 작성되며 lodash wrapper로 변수를 감싸게 되면서    
+해당 변수에 대한 chaining을 시작합니다.    
 [lodash CDN 확인하기](https://cdnjs.com/libraries/lodash.js)
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
@@ -72,7 +72,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
 ## Gsap
-복잡한 애니메이션을 구현할 때 사용합니다.
+복잡한 애니메이션을 구현할 때 사용합니다.    
 [gsap CDN 확인하기](https://cdnjs.com/libraries/lodash.js)
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
@@ -80,12 +80,12 @@ integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPd
 crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
 
-gsap.to(대상, 속성)함수로 애니메이션을 작성하였습니다.
+gsap.to(대상, 속성)함수로 애니메이션을 작성하였습니다.    
 [gsap의 더 많은 프로퍼티 확인하기](https://greensock.com/docs/v3/GSAP/gsap.to())
 
 
 ## Scrollmagic
-스크롤에 따른 애니메이션을 구현할 때 사용합니다.
+스크롤에 따른 애니메이션을 구현할 때 사용합니다.    
 [scrollmagic CDN 확인하기](https://scrollmagic.io/)
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
@@ -117,12 +117,12 @@ triggerElement : 요소, //스크롤 애니메이션 시작 지점 설정
     
 # 함수
 ## addEventListener
-특정 요소에 이벤트를 발생하게 합니다.
+특정 요소에 이벤트를 발생하게 합니다.    
 요소.addEventListener('메소드', 함수);
 
 
 ## 배열로서 작동하는 함수
-forEach문은 주어진 함수를 배열 요소 각각에 대해 실행합니다.
+forEach문은 주어진 함수를 배열 요소 각각에 대해 실행합니다.    
 ```javascript
 arr.forEach(callback(currentvalue[, index[, array]])[, thisArg])
 //배열.forEach(실행할 함수(처리할 요소, 인덱스, 호출한 배열)),this로 실행할 값
