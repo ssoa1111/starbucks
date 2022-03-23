@@ -112,8 +112,8 @@ triggerElement : 요소, //스크롤 애니메이션 시작 지점 설정
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 ```
 [swiper 기능 확인하기](https://swiperjs.com/)
-
     
+        
     
 # 함수
 ## addEventListener
