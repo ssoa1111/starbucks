@@ -10,6 +10,8 @@
 .hide{
     display: none;
 }
+
+/* 자세히보기 버튼 공통 */
 .look-btn{
     width: 120px;
     height: 35px;
@@ -21,18 +23,21 @@
     font-size: 0.813em;
     transition: all 0.4s;
 }
+/* 자세히보기 호버 공통 */
 .look-btn:hover{
     background: #303030;
     color: #fff;
     text-decoration: underline;
     transition: all 0.4s;
 }
+/* 뱃지 */
 .badge{
     position: fixed;
     z-index: 8;
     top: 100px;
     right: 10px;
 }
+
 
 header{
     width: 100%;
@@ -88,6 +93,7 @@ header .mobile .icon li:nth-child(3) a img{
 
 
 /* / header nav mobile / */
+/* 메뉴 검은색 배경 */
 header .mobile .menu-bg{
     position: fixed;
     z-index: 6;
@@ -97,6 +103,7 @@ header .mobile .menu-bg{
     left: 0;
     background: rgba(0, 0, 0, 0.7);
 }
+/* 전체 메뉴 리스트 */
 header .mobile .total-menu{
     width: 70%;
     height: 2000px;
@@ -111,6 +118,7 @@ header .mobile .total-menu.hide{
     width: 0%;
     display: none;
 }
+/* 닫기버튼 */
 header .mobile .total-menu .btn-close{
     position: fixed;
     top: 10px;
@@ -122,6 +130,7 @@ header .mobile .total-menu .btn-close:hover{
     transform: rotate(360deg);
     transition: all 1.5s;
 }
+/* 검색창 영역 */
 header .mobile .total-menu .search-box{
     background: #2d2926;
     height: 120px;
@@ -166,6 +175,7 @@ header .mobile .total-menu .menu-box .mainmenu .menu__textbtn{
     height: 70px;
     position: relative;
     border-bottom: 2px solid #303030;
+    cursor: pointer;
 }
 header .mobile .total-menu .menu-box .mainmenu .menu__textbtn > p{
     position: absolute;
@@ -223,6 +233,7 @@ header .mobile .total-menu .menu-box .mainmenu > .submenu.hide{
     position: absolute;
     width: 80%;
 }
+/* 이미지 위치 조정 */
 .new-item .mobile img:first-child{
     top: 4%;
     left: 7%;
@@ -240,6 +251,7 @@ header .mobile .total-menu .menu-box .mainmenu > .submenu.hide{
     bottom: 15%;
     left: 10%;
 }
+/* 자세히 보기 버튼 */
 .new-item .look-btn{
     position: absolute;
     bottom: 8%;
@@ -260,10 +272,12 @@ header .mobile .total-menu .menu-box .mainmenu > .submenu.hide{
     display: flex;
     flex-direction: column;
 }
+/* 공지사항, 프로모션 공통 */
 .notice .notice-btn, .notice .promotion-btn{
     width: 100%;
     height: 80px;
 }
+/* 공지사항 버튼 */
 .notice .notice-btn{
     display: flex;
     align-items: center;
@@ -278,6 +292,7 @@ header .mobile .total-menu .menu-box .mainmenu > .submenu.hide{
     width: 70%;
     height: 25px;
 }
+/* 프로모션 버튼 */
 .notice .promotion-btn{
     display: flex;
     justify-content: center;
@@ -306,9 +321,9 @@ header .mobile .total-menu .menu-box .mainmenu > .submenu.hide{
     height: 0;
 }
 .promotion .swiper{
-    width: 100%;
     height: 390px;
 }
+/* 자세히 보기 버튼 */
 .promotion .swiper .look-btn{
     margin: auto;
     position: absolute;
@@ -317,6 +332,7 @@ header .mobile .total-menu .menu-box .mainmenu > .submenu.hide{
     left: 0;
     margin: 0 auto;
 }
+/* 좌우 버튼 */
 .promotion .swiper .arrow{
     width: 95%;
     margin: 0 2.5%;
@@ -338,6 +354,7 @@ header .mobile .total-menu .menu-box .mainmenu > .submenu.hide{
 .promotion .swiper .arrow .swiper-prev:hover, .promotion .swiper .arrow .swiper-next:hover{
     background: rgba(255, 255, 255, 0.5);
 }
+/* 페이지네이션 아이콘 변경 */
 span.swiper-pagination-bullet.swiper-pagination-bullet{
     width: 13px;
     height: 13px;
@@ -404,6 +421,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
 .rewards .inner .rewards__text1 .rewards__Btn .login-btn{
     border: 1px solid #fff;
 }
+/* hr 역할 */
 .rewards .inner .line{
     width: 100%;
     height: 2px;
@@ -433,6 +451,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
     position: relative;
     background: #f9e6ec;
 }
+/* 이미지 위치 조정 */
 .season > img:nth-child(1){
     position: absolute;
     top: 0;
@@ -444,6 +463,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
     bottom: 0;
     right: 0;
 }
+/* 모바일에서 이미지 세로로 배치 */
 .season .season__content.mobile{
     width: 90%;
     display: flex;
@@ -454,6 +474,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
 .season .season__content.mobile > img:nth-child(1){
     padding-left: 70px;
 }
+/* 자세히보기 버튼 */
 .season .season__content.mobile .content__text .look-btn{
     margin: 10% auto;
 }
@@ -470,6 +491,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
 .ethiopia .ethiopia--mobile img:nth-child(1){
     width: 100%;
 }
+/* 자세히보기 버튼 */
 .ethiopia .ethiopia--mobile .look-btn{
     position: absolute;
     bottom: 10%;
@@ -503,6 +525,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
     width: 60%;
     margin-bottom: 10%;
 }
+/* 자세히보기 버튼 */
 .favorite .favorite__text .look-btn{
     position: absolute;
     bottom: 10%;
@@ -527,6 +550,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
 .magazine .magazine--mobile img{
     width: 100%;
 }
+/* 자세히보기 버튼 */
 .magazine .magazine--mobile .look-btn{
     position: absolute;
     bottom: 5%;
@@ -547,6 +571,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
     position: relative;
     background: url(../images/near/store_bg.jpg);
 }
+/* 배경 소품 크기 및 위치 조정 */
 .nearstore .circle1{
     width: 300px;
     position: absolute;
@@ -572,6 +597,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
     bottom: 0px;
     right: -70px;
 }
+/* 텍스트 모바일 */
 .nearstore .nearstore__text.mobile{
     box-sizing: border-box;
     padding: 50px;
@@ -591,12 +617,14 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
 .nearstore .nearstore__text.mobile img:nth-child(2){
     margin: 20px auto;
 }
+/* 자세히보기 */
 .nearstore .nearstore__text.mobile .look-btn{
     margin: auto;
 }
 
 
 /* /footer menu/ */
+/* 메인메뉴 */
 .footer__mobilemenu{
     width: 100%;
     text-transform: uppercase;
@@ -615,6 +643,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
     top: 15px;
     right: 15px;
 }
+/* 서브메뉴 */
 .footer__mobilemenu .footer__submenu li{
     box-sizing: border-box;
     padding: 15px;
@@ -633,6 +662,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
 
 
 /* /footer/ */
+/* 모바일에서 pc메뉴 안 보이게 */
 footer .footer__menu.pc{
     display: none;
 }
@@ -647,6 +677,7 @@ footer{
     text-align: center;
     color: #ccc;
 }
+/* 모바일 버튼 */
 footer .btn.mobile{
     width: 100%;
     display: flex;
@@ -666,9 +697,11 @@ footer .btn.mobile li{
 footer .btn.mobile li:hover{
     text-decoration: underline;
 }
+/* footer rewards */
 footer .footer__contents .swiper{
     background-color: #272727;
 } 
+/* footer policy */
 footer .footer__contents .policy{
     width: 100%;
     display: flex;
@@ -695,6 +728,7 @@ footer .footer__contents .policy li::after{
 footer .footer__contents .policy li:last-child:after{
     content: "";
 }
+/* footer 버튼 */
 footer .footer-btn{
     width: 350px;
     display: flex;
@@ -716,6 +750,7 @@ footer .footer-btn div{
 footer .footer-btn div:hover{
     text-decoration: underline;
 }
+/* 주소 */
 footer address{
     color: #888;
     font-size: 0.75em;
@@ -726,6 +761,7 @@ footer address p{
 
 
 /* scroll */
+/* scroll magic event */
 .back-to-position{
     opacity: 0;
     transition: 1s;
@@ -756,12 +792,14 @@ footer address p{
     opacity: 1;
 }
 
-
+/* 650px이상 */
 @media all and (min-width: 650px){
     .wrap{
         max-width: 100%;
         overflow: hidden;
     }
+
+    /* new item */
     .new-item .pc{
         display: block;
     }
@@ -781,6 +819,7 @@ footer address p{
     .new-item .pc img{
         position: absolute;
     }
+    /* 이미지 위치조정 */
     .new-item .pc img:first-child{
         top: 4%;
         left: 2%;
@@ -801,6 +840,7 @@ footer address p{
         right: 2%;
         width: 37%;
     }
+    /* 자세히보기 버튼 */
     .new-item .look-btn{
         top: 26%;
         left: 7%;
@@ -824,7 +864,7 @@ footer address p{
         font-size: 1.125em;
     }
 
-
+    /* /promotion/ */
     .promotion .swiper{
         width: calc(819px * 0.6 * 3 + 20px);
         position: absolute;
@@ -892,6 +932,7 @@ footer address p{
         height: 50vw;
         position: relative;
     }
+    /* 이미지 크기 조정 */
     .season > img:nth-child(1){
         width: 50%;
         left: 0;
@@ -899,6 +940,7 @@ footer address p{
     .season > img:nth-child(2){
         width: 40%;
     }
+    /* tab, pc에서 가로로 배치 변경 */
     .season .season__content.pc{
         width: 90%;
         display: flex;
@@ -913,6 +955,7 @@ footer address p{
     .season .season__content.pc .content__text > img:nth-child(1){
         width: 80%;
     }
+    /* 자세히보기 버튼 */
     .season .season__content.pc .content__text .look-btn{
         margin-top: 10%;
     }
@@ -934,6 +977,7 @@ footer address p{
         width: 200px;
         margin-bottom: 50px;
     }
+    /* 자세히보기 버튼 */
     .favorite .favorite__text .look-btn{
         position: absolute;
         bottom: 100px;
@@ -984,6 +1028,7 @@ footer address p{
         top: 20px;
         right: 20px;
     }
+    /* tab, pc에서 메뉴들의 배치 순서 변경 */
     footer .btn.mobile{
         order: 2;
     }
@@ -1011,6 +1056,7 @@ footer address p{
     footer .footer__contents{
         order: 3;
     }
+    /* policy */
     footer .footer__contents .policy{
         width: 100%;
         display: flex;
@@ -1041,8 +1087,9 @@ footer address p{
 
 
 
-
+/* 1130px 이상 */
 @media all and (min-width: 1130px){
+    /* 뱃지 위치 조정, 1130px안에 배치 */
     .badge{
         width: 100%;
         top: 150px;
@@ -1053,9 +1100,11 @@ footer address p{
         margin: auto;
         text-align: right;
     }
+    /* header mobile, tab용 제거 */
     header .mobile{
         display: none;
     }
+    /* header pc 보이게 */
     header .pc{
         display: block;
     }
@@ -1079,6 +1128,7 @@ footer address p{
     header .pc .inner h1{
         width: 80px;
     }
+    /* 유저 메뉴 */
     header .pc .user-menu{
         display: flex;
         justify-content: flex-end;
@@ -1095,6 +1145,7 @@ footer address p{
     header .pc .user-menu li:last-child:after{
         content: "";
     }
+    /* 서치박스 */
     header .pc .user-menu .search form{
         border: 1px solid #ccc;
         border-radius: 5px;
@@ -1113,6 +1164,7 @@ footer address p{
         width: 100px;
         transition: all 0.4s;
     }
+    /* 메인메뉴 */
     header .pc .mainmenu{
         display: flex;
         position: absolute;
@@ -1130,6 +1182,7 @@ footer address p{
         color: #669900;
         text-decoration: underline;
     }
+    /* 서브메뉴 */
     header .pc .mainmenu > li:hover .submenu{
         display: block;
         transition: all 0.4s;
@@ -1142,6 +1195,7 @@ footer address p{
         left: 0;
         display: none;
     }
+    /* 서브메뉴 텍스트를 1130px내에 포함 */
     header .pc .mainmenu .submenu .menulist .inner{
         width: 1130px;
         padding: 20px 0;
@@ -1154,6 +1208,7 @@ footer address p{
         color: #fff;
         padding: 20px;
     }
+    /* 서브의 서브메뉴 */
     header .pc .mainmenu .submenu .inner .submenu__sub > li{
         font-size: 0.825em;
         padding: 2px 0;
@@ -1178,7 +1233,7 @@ footer address p{
     }
 
 
-
+    /* /new item/ */
     .new-item .pc{
         height: 650px;
     }
@@ -1191,6 +1246,7 @@ footer address p{
     .new-item .pc .inner img{
         position: absolute;
     }
+    /* 이미지 크기 및 배치 조정 */
     .new-item .pc .inner img:first-child{
         top: 9%;
         left: 0;
@@ -1211,6 +1267,7 @@ footer address p{
         right: -2%;
         width: 37%;
     }
+    /* 자세히보기 버튼 */
     .new-item .look-btn{
         top: 35%;
         left: 8%;
@@ -1245,6 +1302,7 @@ footer address p{
         position: relative;
     }
 
+    /* /promotion/ */
     .promotion{
         height: 660px;
     }
@@ -1262,7 +1320,7 @@ footer address p{
         margin-left: calc(1000px / -2);
     }
     
-
+    /* /rewards/ */
     .rewards .inner .mobile{
         display: none;
     }
@@ -1321,7 +1379,7 @@ footer address p{
         margin: 0;
     }
 
-    /* /spring/ */
+    /* /season spring/ */
     .season{
         height: 500px;
     }
@@ -1344,7 +1402,7 @@ footer address p{
         width: 100%;
     }
 
-
+    /* /ethiopia/ */
     .ethiopia{
         height: 350px;
         background: url(../images/ethiopia/reserve_2022_ethiopia_visual_bg.jpg);
@@ -1375,6 +1433,7 @@ footer address p{
         top: -30px;
         right: -570px;
     }
+    /* 자세히보기 버튼 */
     .ethiopia .ethiopia--pc .look-btn{
         position: absolute;
         bottom: 50px;
@@ -1406,6 +1465,7 @@ footer address p{
     .favorite .favorite__text{
         order: 1;
     }
+    /* 자세히보기 버튼 */
     .favorite .favorite__text .look-btn{
         bottom: 40px;
         left: 180px;
@@ -1439,6 +1499,7 @@ footer address p{
         top: 0;
         right: 30px;
     }
+    /* 자세히보기 버튼 */
     .magazine .magazine--pc .look-btn{
         position: absolute;
         bottom: 100px;
@@ -1462,6 +1523,7 @@ footer address p{
         margin: auto;
         position: relative;
     }
+    /* 배경 소품 크기 및 배치 변경 */
     .nearstore .circle1{
         width: 350px;
         top: 0;
@@ -1481,6 +1543,7 @@ footer address p{
         bottom: -30px;
         right: -70px;
     }
+    /* 텍스트 배치 */
     .nearstore .nearstore__text.pc{
         display: flex;
         flex-direction: column;
